@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+.aimBtn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  border: 2px solid #007acc;
+  background-color: white;
+  color: #007acc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.aimBtn.selected {
+  background-color: #007acc;
+  color: white;
+}
+
+#shootBtn {
+  padding: 10px 30px;
+  font-size: 18px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#shootBtn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+#resultArea {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
